@@ -26,21 +26,21 @@ In this post, I will describe step by step instructions for installing OpenCV 3 
 - sudo apt-get install x264 v4l-utils
 
 ### Step 3: Download OpenCV
-git clone https://github.com/opencv/opencv.git
-cd opencv 
-git checkout 3.3.1 
-cd ..
+- git clone https://github.com/opencv/opencv.git
+- cd opencv 
+- git checkout 3.3.1 
+- cd ..
 
-git clone https://github.com/opencv/opencv_contrib.git
-cd opencv_contrib
-git checkout 3.3.1
-cd ..
+- git clone https://github.com/opencv/opencv_contrib.git
+- cd opencv_contrib
+- git checkout 3.3.1
+- cd ..
 
-cd opencv
-mkdir build
-cd build
+- cd opencv
+- mkdir build
+- cd build
 
 ### Step 4: Compile
 
-cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=opencv/path -D INSTALL_C_EXAMPLES=ON -D INSTALL_PYTHON_EXAMPLES=ON -D WITH_TBB=ON -D WITH_V4L=ON -D WITH_QT=ON -D WITH_OPENGL=ON -D OPENCV_EXTRA_MODULES_PATH=/extra/module/path -D BUILD_EXAMPLES=ON ..
+- cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=opencv/path -D INSTALL_C_EXAMPLES=ON -D INSTALL_PYTHON_EXAMPLES=ON -D WITH_TBB=ON -D WITH_V4L=ON -D WITH_QT=ON -D WITH_OPENGL=ON -D OPENCV_EXTRA_MODULES_PATH=/extra/module/path -D BUILD_EXAMPLES=ON ..
 
