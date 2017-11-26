@@ -44,3 +44,12 @@ In this post, I will describe step by step instructions for installing OpenCV 3 
 
 - cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=opencv/path -D INSTALL_C_EXAMPLES=ON -D INSTALL_PYTHON_EXAMPLES=ON -D WITH_TBB=ON -D WITH_V4L=ON -D WITH_QT=ON -D WITH_OPENGL=ON -D OPENCV_EXTRA_MODULES_PATH=/extra/module/path -D BUILD_EXAMPLES=ON ..
 
+### Step 5: Compile and Install 
+
+*find out number of CPU cores in your machine*
+- nproc
+*substitute 4 by output of nproc*
+- make -j4
+- sudo make install
+- sudo sh -c 'echo "/usr/local/lib" >> /etc/ld.so.conf.d/opencv.conf'
+- sudo ldconfig
