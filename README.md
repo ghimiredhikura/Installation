@@ -5,10 +5,8 @@ In this post, I will describe step by step instructions for installing OpenCV 3 
 
 ### Step 1: Update Package
 
-'''ruby
 - sudo apt-get update
 - sudo apt-get upgrade
-'''
 
 ### Step 2: Install OS Libraries
 
