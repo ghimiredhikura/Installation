@@ -4,10 +4,12 @@
 In this post, I will describe step by step instructions for installing OpenCV 3 (C++) on Ubuntu.
 
 ### Step 1: Update Package
-'''
+
+'''ruby
 - sudo apt-get update
 - sudo apt-get upgrade
 '''
+
 ### Step 2: Install OS Libraries
 
 - sudo apt-get install build-essential checkinstall cmake pkg-config yasm
