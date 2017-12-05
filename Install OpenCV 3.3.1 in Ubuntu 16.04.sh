@@ -1,16 +1,16 @@
-OpenCV-Installation
+###OpenCV-Installation
 Install OpenCV 3.3.1 in Ubuntu 16.04
 
 In this post, I will describe step by step instructions for installing OpenCV 3 (C++) on Ubuntu.
 
 Step 1: Update Package
 
-    'sudo apt-get update
-    sudo apt-get upgrade'
+    sudo apt-get update
+    sudo apt-get upgrade
 
 Step 2: Install OS Libraries
 
-    'sudo apt-get install build-essential checkinstall cmake pkg-config yasm
+    sudo apt-get install build-essential checkinstall cmake pkg-config yasm
     sudo apt-get install git gfortran
     sudo apt-get install libjpeg8-dev libjasper-dev libpng12-dev
     sudo apt-get install libtiff4-dev
@@ -23,7 +23,7 @@ Step 2: Install OS Libraries
     sudo apt-get install libfaac-dev libmp3lame-dev libtheora-dev
     sudo apt-get install libvorbis-dev libxvidcore-dev
     sudo apt-get install libopencore-amrnb-dev libopencore-amrwb-dev
-    sudo apt-get install x264 v4l-utils'
+    sudo apt-get install x264 v4l-utils
 
 Step 3: Download OpenCV
 
