@@ -1,4 +1,5 @@
-### OpenCV-Installation
+### OpenCV-Installation ###
+
 Install OpenCV 3.3.1 in Ubuntu 16.04
 
 In this post, I will describe step by step instructions for installing OpenCV 3 (C++) on Ubuntu.
